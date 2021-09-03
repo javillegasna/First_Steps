@@ -1,1 +1,3 @@
-test en proceso 
+test in process
+
+showing structure of the command : git show <file>
