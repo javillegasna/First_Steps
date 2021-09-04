@@ -1,7 +1,1 @@
-test in process
-
-showing structure of the command : git show <file>
-
-testing reset and checkout
-
-test in process
+test finish successful !, I understood the process to do a successful checkout and commit the new changes
