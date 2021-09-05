@@ -1,4 +1,5 @@
 body{
+    background: #1e1f24;
     color: #000000;
     text-align :center;
     font-family: "courier";
@@ -28,6 +29,7 @@ body{
 }
 #container
 {
+    background: white;
     width: 70%;
     padding: 0;
     text-align: left;
