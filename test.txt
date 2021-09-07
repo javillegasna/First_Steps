@@ -1,3 +1,2 @@
 test finish successful !, I understood the process to do a successful checkout and commit the new changes
-Testing rebase
-Main 1Main 2
+Main 1
