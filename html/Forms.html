@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action="">
+        <label for="name">
+            <span>what's your name?</span>
+            <input type="text" id="name" placeholder="your name">
+        </label>
+        <label for="birthdate">
+            <span>What's your birthdate?</span>
+            <input type="date" id="birthdate">
+        </label>
+        <label for="schedule">
+            <span>what is your work schedule?</span>
+            <input type="time" id="schedule">
+        </label>
+    </form>
+    <form action="">
+        <label for="time">
+            <span>What time is it?</span>
+            <input type="time" id="time" name="time">
+        </label>
+        <label for="day">
+            <span>What is today?</span>
+            <input type="date" id="day" name="day">
+        </label>
+        <label for="week">
+            <span>What week is it?</span>
+            <input type="week" id="week" name="week">
+        </label>
+        <label for="month">
+            <span>What month is it?</span>
+            <input type="month" id="month" name="month">
+        </label>
+        <input type="submit">
+    </form>
+    <form action="">
+        <label for="calendar">
+            <span>Calendar</span>
+            <input type="datetime-local" id="calendar" name="calendar">
+        </label>
+        <input type="submit" />
+    </form> -->
+    <main>
+        <form action="">
+            <label for="Name">
+                <span>What is your name?</span>
+                <input type="text" name="Name" id="Name" autocomplete="name" required />
+            </label>
+            <label for="email">
+                <span>What's your email?</span>
+                <input type="email" name="email" id="email" autocomplete="email" required />
+            </label>
+            <label for="Country">
+                <span>What's your Country?</span>
+                <input type="text" name="Country" id="Country" autocomplete="country" required />
+            </label>
+            <label for="postal-code">
+                <span>Postal code</span>
+                <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" required/>
+            </label>
+            <!--<select name="Main skill" id="">
+                <option value="HTML5">HTML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="JavaScipt">JavaScipt</option>
+                <option value="Python">Python</option>
+            </select>-->
+            <input list="cursos" />
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standards"></option>
+            </datalist>
+            <input type="submit">
+        </form>
+        
+    </main>
+
+</body>
+</html>
