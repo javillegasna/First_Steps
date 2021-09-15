@@ -54,20 +54,20 @@
     
     <main>
         <p>Practice with forms and css3 </p>
-        <form action="">
-            <label for="Name">
+        <form class="main-form" action="">
+            <label class="main-form_item" for="Name">
                 <span class="lblName">What is your name?</span>
                 <input type="text" name="Name" id="Name" autocomplete="name" required />
             </label>
-            <label for="email">
+            <label class="main-form_item" for="email">
                 <span>What's your email?</span>
                 <input type="email" name="email" id="email" autocomplete="email" required />
             </label>
-            <label for="Country">
+            <label class="main-form_item" for="Country">
                 <span>What's your Country?</span>
                 <input type="text" name="Country" id="Country" autocomplete="country" required />
             </label>
-            <label for="postal-code">
+            <label class="main-form_item" for="postal-code">
                 <span id="text">Postal code</span>
                 <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code" required/>
             </label>
@@ -77,15 +77,18 @@
                 <option value="JavaScipt">JavaScipt</option>
                 <option value="Python">Python</option>
             </select>-->
-            <input list="cursos" />
-            <datalist id="cursos">
-                <option value="JavaScript"></option>
-                <option value="HTML5"></option>
-                <option value="CSS3"></option>
-                <option value="Web Standards"></option>
-            </datalist>
-            <input type="submit" value="Name"/>
-            <button type="submit">Send </button>
+            <label class="main-form_item" for="skill">
+                <span id="skill"> Main skill</span>
+                <input  list="cursos"  />
+                <datalist  id="cursos"> 
+                    <option value="JavaScript"></option>
+                    <option value="HTML5"></option>
+                    <option value="CSS3"></option>
+                    <option value="Web Standards"></option>
+                </datalist>
+            </label>
+            <input class="main-form_item" type="submit" value="Name"/>
+            <button class="main-form_item" type="submit">Send </button>
         </form>
         
     </main>

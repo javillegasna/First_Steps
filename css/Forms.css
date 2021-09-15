@@ -1,3 +1,6 @@
+body{
+    align-items: center;
+}
 p{
     color: blue;
     font-size: small;
@@ -5,6 +8,10 @@ p{
 /*class*/
 .lblName{
     color: brown;
+}
+.main-form_item{
+    display: list-item;
+    list-style: none;
 }
 /*id*/
 #text{

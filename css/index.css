@@ -49,5 +49,30 @@ body{
     background: #58646d;
     color: whitesmoke;
     text-align: center;
-    padding: 0.5em;    
+    padding: 0.5em; 
+}
+.main-footer{
+    list-style: none;
+}
+.main-footer__item{
+    display: inline-block;
+    padding-left: 0px;
+}
+.main-footer__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/* pseudo class */
+.main-footer__item a:hover{
+    color:#1e1f24;
+    ;
+}
+.main-footer__item a:active{
+    color: tomato;
+}
+/* pseudo element */
+.main-footer__item a::after{
+    content: " | ";
 }
