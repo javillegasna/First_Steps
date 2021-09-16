@@ -1,3 +1,4 @@
+/* General styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,4 +20,34 @@ li{
     color: white;
     text-align :left;
     padding-left: 20px;
+}
+/* Comninators */
+h2 + iframe{
+    color: #5D5D5E;
+}
+/* Specific Styles */
+.nav{
+    background-color: #333333;
+    text-align: left;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list__item{
+    display: inline-block;
+}
+.nav-list__item a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav-list__item a img{
+    width: 20px;
+    vertical-align: middle;
+}
+.nav-list__item a:hover{
+    color:white;
+}
+.nav-list__item a:hover::after{
+    color:white;
+    content: " | ";
 }
