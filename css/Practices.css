@@ -4,13 +4,16 @@
     padding: 0;
     margin: 0;
     list-style: none;
-  }  
+  }
+html{
+    font-size: 6.25%;
+}  
 body{
     background: #1e1f24;
     color: #000000;
     text-align :center;
     font-family: "courier";
-    font-size: 16px;
+    font-size: 16rem;
     margin: 0;
 }
 h3{
@@ -19,13 +22,24 @@ h3{
 li{
     color: white;
     text-align :left;
-    padding-left: 20px;
+    padding-left: 20rem;
 }
-/* Comninators */
-h2 + iframe{
-    color: #5D5D5E;
+/* Combinators
+tag1 + tag2{}: apply on all tags2 next to tag1
+tag1 ~ tag2{}: apply on all tags2 on the same code block */
+section > h2{
+    color: #5D5D5E ;
+}
+section > iframe{
+    width: 80%;
+    min-width: 360px;
+    max-width: 560px;
+    min-height: 315px;
+    max-height: 60vh;
+   height: 60%;
 }
 /* Specific Styles */
+
 .nav{
     background-color: #333333;
     text-align: left;
@@ -41,7 +55,7 @@ h2 + iframe{
     color: #000000;
 }
 .nav-list__item a img{
-    width: 20px;
+    width: 20rem;
     vertical-align: middle;
 }
 .nav-list__item a:hover{

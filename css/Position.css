@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 6.25%;
+}
+.body{
+    background: #f5ee31;
+    width: 300rem;
+    height: 400rem;
+    border: 5rem solid #000;
+    position: relative;
+    margin: 50rem auto;
+    overflow: hidden;
+}
+/* ojos */
+.eyes{
+    position: absolute;
+    left: 50rem;
+    top: 40rem;
+    width: 210rem;
+    z-index: 10;
+}
+.eye{
+   background: #fff;
+   position: relative;
+   border: 5rem solid #000;
+   width: 100rem;
+   height: 100rem;
+   margin-right: -17rem;
+   display: inline-block;
+   border-radius: 50%;
+}
+.external_eye{
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+    position: absolute;
+    background: #00Aeef;
+    border: 3rem solid #000000;
+    top: 19rem;
+    left: 24rem;
+}
+.internal_eye{
+    width: 30rem;
+    height: 30rem;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+    top: 8rem;
+    left: 8rem;
+}
+.eyelashs{
+    position: relative;
+    bottom: 12rem;
+    left: 23rem;
+}
+.eyelash{
+    width: 15rem;
+    height: 5rem;
+    background: #000000;
+    display: inline-block;
+    position: relative;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.eyelash.first{
+    position: relative; 
+    bottom: -6rem;
+    left: -6rem;  
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+.eyelash.tirth{
+    position: relative; 
+    bottom: -6rem;
+    left: 6rem;   
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+.nose{
+    width: 25rem;
+    height: 40rem;
+    background: #f5ee31;
+    position: absolute;
+    top: 110rem;
+    left: 130rem;
+    border: 5rem solid #000000;
+    z-index: 10;
+    border-bottom: transparent;
+    border-radius: 42.5%;
+}
+.mouth{
+    width: 200rem;
+    height: 80rem;
+    position: relative;
+    background: transparent;
+    top: 120rem;
+    left: 50rem;
+    border-radius: 50%;
+    z-index: 10rem;
+    border-bottom: 5rem solid #000000;
+}
+.tooths{
+    position: relative;
+    top: 76rem;
+    left: 72rem;
+    
+}
+.tooth{
+    width: 20rem;
+    height: 25rem;
+    background: #fff;
+    border: 3rem solid #000000;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.cheek{
+    width: 30rem;
+    height: 20rem;
+    background: transparent;
+    position: absolute;
+    top: 30rem;
+    border: 3rem solid #f1592a;
+    border-bottom: transparent;
+    border-radius: 50% 50% 20% 20%;
+}
+.cheek.first{
+    left: -14rem;
+}
+.cheek.second{
+    left: 180rem;
+}
+/* tie */
+.shirt{
+    width: 100%;
+    height: 50rem;
+    position: absolute;
+    background: #fff;
+    bottom: 50rem;
+    border-top: 5rem solid #000000;
+    z-index: 10;
+    overflow: hidden;
+}
+.neck{
+    width: 50rem;
+    height: 30rem;
+    position: absolute;
+    background: #fff;
+    top: -15rem;
+    border: 5rem solid #000;
+}
+.neck.first{
+    left: 60rem;
+    -moz-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg)
+}
+.neck.second{
+    left: 180rem;
+    -moz-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg)
+}
+.neck_tie{
+    width: 40rem;
+    height: 40rem;
+    background: #f00200;
+    border: 5rem solid #000;
+    position: absolute;
+    left: 127rem;
+    bottom: 30rem;
+    z-index: 50;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+/* Pantalones */
+.tie_tail{
+    width: 55rem;
+    height: 55rem;
+    background: #f00200;
+    border: 5rem solid #000;
+    position: absolute;
+    left: 119rem;
+    bottom: 9rem;
+    z-index: 50;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+.pants{
+    width: 100%;
+    height: 50rem;
+    background: #6a3d13;
+    position: absolute;
+    bottom: 0%;
+    border-top: 5rem solid #000;
+    z-index: 10;
+}
+.belt{
+    width: 40rem;
+    height: 15rem;
+    position: absolute;
+    top: 20rem;
+    background: #000;
+}
+.belt.first{
+    left: 20rem;
+}
+.belt.second{
+    left: 80rem;
+}
+.belt.tirth{
+    right: 80rem;
+}
+.belt.fourth{
+    right: 20rem;
+}
+/* pore */
+.pore{
+    background: #c0a402;
+    height: 40rem;
+    width: 40rem;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+.pore.first{
+    top: 230rem;
+    left: 20rem;
+    height: 50rem;
+    width: 50rem;
+}
+.pore.second{
+    top: 200rem;
+    left: 280rem;
+}
+.pore.tirth{
+    top: 50rem;
+    left: 260rem;
+    height: 15rem;
+    width: 15rem;
+}
+.pore.fourth{
+    top: 300rem;
+    left: 20rem;
+    height: 50rem;
+    width: 50rem;
+}
