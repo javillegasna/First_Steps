@@ -15,6 +15,12 @@ body{
     font-family: "courier";
     font-size: 16rem;
     margin: 0;
+    height: 100vh;
+}
+main{
+    display: inline-block;
+    width: 100vw;
+    height: 94vh;
 }
 h3{
     color: #000000;
@@ -24,6 +30,10 @@ li{
     text-align :left;
     padding-left: 20rem;
 }
+footer{
+    background-color: #333333
+}
+
 /* Combinators
 tag1 + tag2{}: apply on all tags2 next to tag1
 tag1 ~ tag2{}: apply on all tags2 on the same code block */
@@ -37,6 +47,7 @@ section > iframe{
     min-height: 315px;
     max-height: 60vh;
    height: 60%;
+
 }
 /* Specific Styles */
 
@@ -64,4 +75,24 @@ section > iframe{
 .nav-list__item a:hover::after{
     color:white;
     content: " | ";
+}
+.nav-left{
+    position: absolute;
+    width: 25%;
+    height: 94.7vh;
+    left: 0rem;
+    background-color: #252526;
+    top: 20rem;
+ }
+ .nav-left_div{
+    background-color: rgba(0, 0, 0, 0.10);
+    margin: 10rem;
+    border-radius: 5rem;
+ }
+.conten{
+    position: absolute;
+    width: 75%;
+    height: 94.7vh;
+    right: 0rem;
+    top: 20rem;
 }
