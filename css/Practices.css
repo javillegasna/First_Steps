@@ -18,9 +18,9 @@ body{
     height: 100vh;
 }
 main{
-    display: inline-block;
-    width: 100vw;
-    height: 94vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: 95vh;
 }
 h3{
     color: #000000;
@@ -37,14 +37,18 @@ footer{
 /* Combinators
 tag1 + tag2{}: apply on all tags2 next to tag1
 tag1 ~ tag2{}: apply on all tags2 on the same code block */
+section{
+    flex-grow: 1; 
+}
 section > h2{
     color: #5D5D5E ;
 }
 section > iframe{
+    border-radius: 5rem;
     width: 80%;
-    min-width: 360px;
-    max-width: 560px;
-    min-height: 315px;
+    min-width: 360rem;
+    max-width: 560rem;
+    min-height: 230rem;
     max-height: 60vh;
    height: 60%;
 
@@ -77,22 +81,12 @@ section > iframe{
     content: " | ";
 }
 .nav-left{
-    position: absolute;
-    width: 25%;
-    height: 94.7vh;
-    left: 0rem;
     background-color: #252526;
     top: 20rem;
+    /* flex-grow: 2;  */
  }
  .nav-left_div{
     background-color: rgba(0, 0, 0, 0.10);
-    margin: 10rem;
+    margin: 5rem;
     border-radius: 5rem;
  }
-.conten{
-    position: absolute;
-    width: 75%;
-    height: 94.7vh;
-    right: 0rem;
-    top: 20rem;
-}

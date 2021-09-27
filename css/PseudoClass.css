@@ -2,20 +2,25 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }  
+  }
+  html{
+    font-size: 6.25%;
+  }
+  body{
+      font-size: 16rem;
+  } 
 .main-nav{
-    margin-top: 10px;
     list-style: none;
-    padding-left: 0px;
-    background-color: #13a4a4;
+    padding-left: 0rem;
+    background-color: #17acac;
 }
 .main-nav__item{
     display: inline-block;
 }
 .main-nav__item a{
     color: white;
-    padding: 5px;
-    border-radius: 2px;
+    padding: 5rem;
+    border-radius: 2rem;
     text-decoration: none;
 }
 /* pseudo class */
@@ -28,4 +33,38 @@
 /* pseudo element */
 .main-nav__item a::after{
     content: " | ";
+}
+.container{
+    border: 3rem solid black;
+    display: flex;
+    align-items: center;
+    /* align-items: stretch -> as the name says the container stretches all of their height */
+    /* align-items: baseline; */
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100rem;
+    flex-basis: 100rem;
+    flex-grow: 1; 
+}
+.box1{
+    background-color: blue;
+    
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: brown;
+}
+.box4{
+    background-color: burlywood;
+}
+.box5{
+    background-color: beige;
+}
+.box6{
+    background-color: bisque;
 }
