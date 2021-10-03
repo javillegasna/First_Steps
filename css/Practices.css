@@ -1,3 +1,8 @@
+/* vars */
+:root{
+    --primary-color: #333333;
+    --h2-color: #5D5D5E;
+}
 /* General styles */
 * {
     box-sizing: border-box;
@@ -10,7 +15,7 @@ html{
 }  
 body{
     background: #1e1f24;
-    color: #000000;
+    color: black;
     text-align :center;
     font-family: "courier";
     font-size: 16rem;
@@ -23,7 +28,7 @@ main{
     height: 95vh;
 }
 h3{
-    color: #000000;
+    color: black;
 }
 li{
     color: white;
@@ -31,9 +36,8 @@ li{
     padding-left: 20rem;
 }
 footer{
-    background-color: #333333
+    background-color: var(--primary-color);
 }
-
 /* Combinators
 tag1 + tag2{}: apply on all tags2 next to tag1
 tag1 ~ tag2{}: apply on all tags2 on the same code block */
@@ -41,7 +45,8 @@ section{
     flex-grow: 1; 
 }
 section > h2{
-    color: #5D5D5E ;
+    font-family: 'Fleur De Leah', cursive;
+    color: var(--h2-color);
 }
 section > iframe{
     border-radius: 5rem;
@@ -54,9 +59,8 @@ section > iframe{
 
 }
 /* Specific Styles */
-
 .nav{
-    background-color: #333333;
+    background-color: var(--primary-color);
     text-align: left;
 }
 .nav-list{
@@ -67,7 +71,7 @@ section > iframe{
 }
 .nav-list__item a{
     text-decoration: none;
-    color: #000000;
+    color: black;
 }
 .nav-list__item a img{
     width: 20rem;
