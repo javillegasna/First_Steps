@@ -5,28 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/Google_clone.css">
 </head>
 <body>
-    <header class="hdr-list">
-        <ul>
-            <li class="hdr-list__li">Gmail</li>
-            <li class="hdr-list__li">Images</li>
+    <header>
+        <ul class="hdr-list">
+            <li class="hdr-list__li"><a class="hdr-list__text" href="https://mail.google.com/mail/&ogbl"><p>Gmail</p></a></li>
+            <li class="hdr-list__li"> <a class="hdr-list__text" href="https://www.google.com.ec/imghp?hl=en&ogbl"> <p>Images</p> </a> </li>
             <li class="hdr-list__li">
-                <picture class="hdr-pic__img">
-                    <img class="hdr-pic__img hdr-pic__img--apps" src="../assets/G_img/G_apps.png" alt="google image">
+                <picture>
+                    <div class="hdr-pic">
+                        <img class="hdr-pic__img hdr-pic__img--apps" src="../assets/G_img/G_apps.png" alt="google image">
+                    </div>
                 </picture>
             </li>
             <li class="hdr-list__li">
-                <picture class="hdr-pic__img">
-                    <img class="hdr-pic__img hdr-pic__img--acount" src="../assets/G_img/Foto-S.png" alt="google acount image">
+                <picture>
+                    <div class="hdr-pic">
+                        <img class="hdr-pic__img hdr-pic__img--acount" src="../assets/G_img/Foto-S.png" alt="google acount image">
+                    </div>
                 </picture>
             </li>
         </ul>
     </header>
     <main>
+        <section class="cont">
+            <article class="cont-g_logo">
+                <picture>
+                    <img class="cont-g_logo__img" src="../assets/G_img/G_logo_1.png" alt="google image or gif">
+                </picture>
+            </article>
+            <article class="cont-srch">
+                <div class="cont-pict">
+                    <div class="cont-p">
+                        <picture>
+                            <img class="cont-pict__img" src="../assets/G_img/G_buscar.png" alt="icon search google">
+                        </picture>
+                        <input class="cont-pict__text" type="text">
+                    </div>
+                    <center>
+                        <input class="cont-b__btn" type="button" value="Google Search">
+                        <input class="cont-b__btn" type="button" value="I'm Feeling Luky">
+                    </center>
+                </div>
+            </article>
+            <div class="cont-offer">
+                <center>
+                    <p>Google ofered in: <a href="">Español (Latinoamerica)</a></p>
+                </center>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="foot">
+            <p class="foot__p">Ecuador</p>
+        </div>
+        <div class="Foot">
+            <ul class="foot">
+                <li class="foot__li"><p>About</p></li>
+                <li class="foot__li"><p>Advertising</p></li>
+                <li class="foot__li"><p>Busines</p></li>
+                <li class="foot__li">How Search works</li>
+            </ul>
+            <ul class="foot">
+                <li class="foot__li">Privacy</li>
+                <li class="foot__li">Terms</li>
+                <li class="foot__li">Settings</li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

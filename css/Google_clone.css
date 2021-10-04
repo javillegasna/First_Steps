@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  html{
+    font-size: 6.25%;
+    font-family: arial,sans-serif;
+}
+p{
+    font-size: 13rem;
+}
+header{
+    font-size: 16rem;
+    height: 60rem;
+    width: 100%;
+    padding: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.hdr-list{
+    width: auto;
+    list-style: none;
+    
+}
+.hdr-list__li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 3rem 5rem;
+}
+.hdr-list__text{
+    
+    text-decoration: none;
+    color: black;
+}
+.hdr-list__text:hover{
+    text-decoration: underline;
+}
+.hdr-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+}
+.hdr-pic:hover{
+    background-color: #8080808a;
+}
+.hdr-pic__img{
+    height: 32rem;
+    width: 32rem;
+}
+.hdr-pic__img--apps{
+    height: 16rem;
+    width: 16rem;
+}
+.hdr-pic__img--acount{
+    border-radius: 50%;
+}
+main{
+    height: 80.9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont{
+    margin-bottom: 80px;
+}
+.cont-g_logo{
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+}
+.cont-g_logo__img{
+    height: 92rem;
+    width: 272rem;
+}
+.cont-pict{
+    width: 584rem;
+    height: 46rem;
+    border: 1px solid #8080806b;
+    border-radius: 50vh;
+}
+.cont-p{
+    height: 46rem;
+    display: flex;
+    align-items: center;
+}
+.cont-pict__img{
+    margin-left: 5rem;
+    height: 20rem;
+    width: 20rem;
+}
+.cont-pict__text{
+    width: 527rem;
+    height: 34rem;
+    border: none;
+}
+.cont-b{
+    width: 527rem;
+    height: auto;
+}
+.cont-b__btn{
+    border: none;
+    margin: 11px 20rem;
+    padding: 0px 16rem;
+    width: 129rem;
+    height: 36rem;
+    background-color: #f0f0f080;
+}
+.cont-b__btn:hover{
+    border: 1rem solid #e9e7c986;
+}
+.cont-offer{
+    margin-top: 70px;
+}
+footer{
+    background-color: #f2f2f2;
+    height: 96px;
+}
+.foot__p{
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin: 0 25px;
+    color: #868A8E ;
+}
+.Foot{
+    border-top: 2px solid #DADCE0;
+    height: 46px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.foot{
+    font-size: 13rem;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.foot__li{
+    display: inline-block;
+    margin: 25px;
+    color: #868A8E;
+}
