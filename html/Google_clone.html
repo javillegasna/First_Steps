@@ -9,70 +9,58 @@
 </head>
 <body>
     <header>
-        <ul class="hdr-list">
-            <li class="hdr-list__li"><a class="hdr-list__text" href="https://mail.google.com/mail/&ogbl"><p>Gmail</p></a></li>
-            <li class="hdr-list__li"> <a class="hdr-list__text" href="https://www.google.com.ec/imghp?hl=en&ogbl"> <p>Images</p> </a> </li>
-            <li class="hdr-list__li">
-                <picture>
-                    <div class="hdr-pic">
-                        <img class="hdr-pic__img hdr-pic__img--apps" src="../assets/G_img/G_apps.png" alt="google image">
-                    </div>
-                </picture>
-            </li>
-            <li class="hdr-list__li">
-                <picture>
-                    <div class="hdr-pic">
-                        <img class="hdr-pic__img hdr-pic__img--acount" src="../assets/G_img/Foto-S.png" alt="google acount image">
-                    </div>
-                </picture>
-            </li>
-        </ul>
+        <nav>
+            <ul class="hdr-list">
+                <li class="hdr-list__li"><a class="hdr-list__a" href="https://mail.google.com/mail/&ogbl">Gmail</a></li>
+                <li class="hdr-list__li"> <a class="hdr-list__a" href="https://www.google.com.ec/imghp?hl=en&ogbl"> Images </a> </li>
+                <li class="hdr-list__li">
+                    <a class="hdr-list__a hdr-list__a--mnIcon" href="#">
+                    </a>
+                </li>
+                <li class="hdr-list__li">
+                    <a class="hdr-list__a" href="#">
+                        <picture>
+                                <img class="hdr-pic__img hdr-pic__img--acount" src="https://lh3.googleusercontent.com/ogw/ADea4I4bTYR3dGjUhI0O1lF2pMi6hfIkzLYEzDF85uhbOQ=s32-c-mo" alt="google acount image">
+                        </picture>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section class="cont">
-            <article class="cont-g_logo">
-                <picture>
-                    <img class="cont-g_logo__img" src="../assets/G_img/G_logo_1.png" alt="google image or gif">
-                </picture>
-            </article>
-            <article class="cont-srch">
-                <div class="cont-pict">
-                    <div class="cont-p">
-                        <picture>
-                            <img class="cont-pict__img" src="../assets/G_img/G_buscar.png" alt="icon search google">
-                        </picture>
-                        <input class="cont-pict__text" type="text">
-                    </div>
-                    <center>
-                        <input class="cont-b__btn" type="button" value="Google Search">
-                        <input class="cont-b__btn" type="button" value="I'm Feeling Luky">
-                    </center>
-                </div>
-            </article>
-            <div class="cont-offer">
-                <center>
-                    <p>Google ofered in: <a href="">Español (Latinoamerica)</a></p>
-                </center>
+        <section class="mnSect mnSect--logo">
+            <img class="mnSect__G-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="">
+        </section>
+        <section class="mnSect mnSect--search">
+            <div class="mnSearch">
+                <span class="mnSearch__icon">
+                    
+                </span>
+                <input class="mnSearch__inp" type="text">
+                <a class="mnSearch__micro" href="#"></a>
+            </div>
+        </section>
+        <section class="mnSect mnSect--btns">
+            <div>
+                <button>Google Search</button>
+            </div>
+            <div>
+                <button>I´m Feeling Lucky</button>
             </div>
         </section>
     </main>
     <footer>
-        <div class="foot">
-            <p class="foot__p">Ecuador</p>
-        </div>
-        <div class="Foot">
-            <ul class="foot">
-                <li class="foot__li"><p>About</p></li>
-                <li class="foot__li"><p>Advertising</p></li>
-                <li class="foot__li"><p>Busines</p></li>
-                <li class="foot__li">How Search works</li>
-            </ul>
-            <ul class="foot">
-                <li class="foot__li">Privacy</li>
-                <li class="foot__li">Terms</li>
-                <li class="foot__li">Settings</li>
-            </ul>
-        </div>
+        <ul class="foot--left">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">business</a></li>
+            <li><a href="#">How Search works</a></li>
+        </ul>
+        <ul class="foot--right">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
     </footer>
 </body>
 </html>
