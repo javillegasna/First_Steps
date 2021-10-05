@@ -1,0 +1,28 @@
+/*
+1. position
+2. box model
+3. tipografia
+4. visual efects
+5. miselanius 
+*/
+:root{
+    /* colores */
+    --bitcoin-orange: #F7931A;
+    --soft-orange:  #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-Black: #282623;
+    --grey: #BABABA;
+    --off-White:#FAF8F7;
+    --just-White: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 6.25%;
+    font-family: 'DM Sans', sans-serif;
+}
