@@ -7,15 +7,15 @@
 */
 :root{
     /* colores */
-    --bitcoin-orange: #F7931A;
-    --soft-orange:  #FFE9D5;
-    --secondary-blue: #1A9AF7;
-    --soft-blue: #E7F5FF;
+    --bitcoin_orange: #F7931A;
+    --soft_orange:  #FFE9D5;
+    --secondary_blue: #1A9AF7;
+    --soft_blue: #E7F5FF;
     --warm-black: #201E1C;
-    --warm-Black: #282623;
+    --warm_Black: #282623;
     --grey: #BABABA;
-    --off-White:#FAF8F7;
-    --just-White: #FFFFFF;
+    --off_White:#FAF8F7;
+    --just_White: #FFFFFF;
 }
 *{
     box-sizing: border-box;
@@ -23,6 +23,253 @@
     padding: 0;
 }
 html{
-    font-size: 6.25%;
+    font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: px;
+    min-width: 320px;
+    text-align: center;
+    background: linear-gradient(
+        208deg, #201E1C 16.69%, #F7931A 100%
+    );
+}
+header img{
+    position: relative;
+    width: 150px;
+    height: 24px;
+    margin-top: 50px;
+    align-self: center;
+}
+.hdr-title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 33px;
+    text-align: center;
+    align-self: center;
+}
+.hdr-title h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just_White);
+}
+.hdr-title p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight:500;
+    line-height: 1.8rem;
+    color: var(--soft_orange);
+}
+
+header .hdr-btn{
+    position: absolute;
+    display: block;
+    left: calc(50% - 114px);
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off_White);
+    /* sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--warm_Black);
+}
+header .hdr-btn span{
+    display: inline-block;
+    margin-left: 10px;
+    width: 8px;
+    height: 12px;
+    rotate: Z 90deg;
+    background-image: url('../assets/icons/arrow.svg');
+    background-position: center;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off_White);
+}
+.mn-exch{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.mn-exch-conten{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.mn-exch .backg-img{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('../assets/images/bitcoin.svg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat ;
+}
+.mn-exch h2{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm_Black);
+}
+.mn-exch-conten p{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    color: #757575;
+}
+.mn-sect-tbl{
+    display: flex;
+    overflow: hidden;
+    
+}
+.mn-cont-tbl{
+    width: auto;
+    min-width: 100vw;
+    max-width: 500px;
+    height: 276px;
+    font-family: 'intern', sans-serif;
+}
+.mn-cont-tbl__title{
+    margin-bottom: 12px;
+    padding-left: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: var(--bitcoin_orange);
+    text-align: center;
+}
+.mn-tbl{
+    width: 60%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 160px;
+    margin: 0 auto;
+}
+.mn-tbl table{
+    width: 100%;
+    height: 100%;
+}
+.mn-tbl__L,.mn-tbl__R{
+    width: 50%;
+    text-align: left;
+    padding: 10px 16px;
+    background-color: var(--just_White);
+}
+.mn-tbl__L{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #B5B0AC;
+    line-height: 1.9rem;
+}
+.mn-tbl__L--t{
+    border-top-left-radius: 8px ;
+}
+.mn-tbl__L--d{
+    border-bottom-left-radius: 8px;
+}
+.mn-tbl__R{
+    font-size: 1.4rem;
+    color: #757575;
+    line-height: 1.7rem;
+}
+.mn-tbl__R--t{
+    border-top-right-radius: 8px;
+}
+.mn-tbl__R--d{
+    border-bottom-right-radius: 8px;
+}
+.mn-tbl__spn{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 25px;
+    background-image: url('../assets/icons/trending-down.svg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat ;
+}
+.mn-tbl__spn--up{
+    background-image: url('../assets/icons/trending-up.svg');
+}
+.mn-tbl-btn{
+    height: 31px;
+    width: 173px;
+    background-color: var(--soft_orange);
+    border-radius: 8px;
+    margin: 16px auto 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn-tbl-btn p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: var(--warm-black);
+}
+.tbl-go-R span{
+    display: inline-block;
+    margin-left: 10px;
+    width: 8px;
+    height: 12px;
+    background-image: url('../assets/icons/arrow.svg');
+    background-position: center;
+    position: relative;
+    bottom: 90px;
+    left: 40vw;
+    border-radius: 50vh;
+}
+.tbl-go-R span:hover{
+    background-color: var(--bitcoin_orange);
+}
+.mn-cont-tbl__title--com{
+    color: var(--secondary_blue);
+}
+.mn-tbl-btn--com{
+    color: #E7F5FF;
+}
+.mn-tbl__R--com{
+    width: 100%;
+    text-align: center;
+}
+.tbl-go-L span{
+    display: inline-block;
+    margin-left: 10px;
+    width: 8px;
+    height: 12px;
+    rotate: Z 180deg;
+    background-image: url('../assets/icons/arrow.svg');
+    background-position: center;
+    position: relative;
+    bottom: 90px;
+    right: 45vw;
+    border-radius: 50vh;
+}
+.tbl-go-L span:hover{
+    background-color: var(--bitcoin_orange);
+}
+
+
