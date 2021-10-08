@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tablet.css" media='(min-width: 930px)'>
 </head>
 <body>
     <header>
@@ -17,16 +18,16 @@
         <div class="hdr-title">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a href="" class="hdr-btn">Conoce Nuestros Planes <span></span></a>
+            <a href="#plans" class="hdr-btn">Conoce Nuestros Planes <span></span></a>
         </div>
     </header>
     <main>
         <section class="mn-exch">
             <div class="backg-img"></div>
-            <div class="mn-exch-conten">
+            <article class="mn-exch-conten">
                 <h2>Visibilizamos todas las tasas de cambio.</h2>
                 <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
-            </div>
+            </article>
             <section class="mn-sect-tbl">
                 <div class="mn-cont-tbl mn-cont-tbl--mon" id="tbl-mon">
                     <p class="mn-cont-tbl__title">Monedas</p>
@@ -113,9 +114,54 @@
                 </article>
             </section>
         </section>
-        <section></section>
-        <section></section>
+        <section class="mn-img">
+            <h2>Conócelo hoy.</h2>
+        </section>
+        <section class="mn-plns" id='plans'>
+            <div class="plns-cont">
+                <h2 class="plns-cont__title">Escoge el plan que mejor se ajuste a ti.</h2>
+                <p class="plns-cont__text">Cualquier plan te da acceso completo a nuestra plataforma.</p>
+                <section class="carts-plns--slider">
+                    <article class="cart-p">
+                        <div class="cart-p-body">
+                            <h3 class="cart-p-body__title">Pago Anual</h3>
+                            <p class="cart-p-body__price"> <span class="cart-p-body__dlr">$</span> 5</p>
+                            <p class="cart-p-body__saving">*Plan básico para mantenerte informado.</p>
+                            <button class="cart-p-body__btn">Escoger este<span></span> </button>
+                        </div>
+                    </article>
+                    <article class="cart-p">
+                        <p class="cart-p__Recdd">Recomendado</p>
+                        <div class="cart-p-body">
+                            <h3 class="cart-p-body__title">Pago Anual</h3>
+                            <p class="cart-p-body__price cart-p-body__price--Rcdd"> <span>$</span> 49</p>
+                            <p class="cart-p-body__saving">*Ahorras $129 comparado al plan mensual.</p>
+                            <button class="cart-p-body__btn--Rcdd">Escoger este<span></span> </button>
+                        </div>
+                    </article>
+                    <article class="cart-p">
+                        <div class="cart-p-body">
+                            <h3 class="cart-p-body__title">Pago Anual</h3>
+                            <p class="cart-p-body__price"> <span>$</span> 99</p>
+                            <p class="cart-p-body__saving">*Ahorras $999+ comparado al plan anual.</p>
+                            <button class="cart-p-body__btn">Escoger este<span></span> </button>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <section class="ft-left">
+            <ul>
+                <li><a href="#">linkedin</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hackernews</a></li>
+            </ul>
+        </section>
+        <section class="ft-rigth">
+            <img src="./assets/icons/icon_batata.svg" alt="logo de batatabit 2020">
+        </section>
+    </footer>
 </body>
 </html>
