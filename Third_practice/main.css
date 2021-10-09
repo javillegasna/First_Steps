@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65.2%;
+}
+body{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: #FEA8F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-body{
+    overflow: hidden;
+    background-color: white;
+    border-radius: 30px;
+    width: 350px;
+    height: auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.568);
+}
+.cart-hdr img{
+    width: 350px;
+    height: 100px;
+}
+.cart-main{
+    position: relative;
+}
+.cart-main img{
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.cart-main__cont{
+    margin: 45px auto 20px;
+    padding: 0px 15px;
+    text-align: center;
+}
+.cart-main__cont h1{
+    width: 100%;
+    font-size: 1.8rem;
+}
+.cart-main__cont p{
+    font-size: 1.4rem;
+    margin: 10px 0px;
+}
+.cart-ft hgroup{
+    display: flex;
+    text-align: center;
+    color: #FEA8F3;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+}
+.cart-ft__icon{
+    font-size: 2.2rem;
+    margin: auto 4px;
+}
+.animals{
+    position: relative;
+}
+.animals img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.anmals__conejo{
+    z-index: -1;
+    rotate: z -90deg;
+    top:75px;
+    left: -40px;
+}
+.anmals__gato{
+    z-index: -1;
+    left: 25px;
+    top: -30px;
+}
+.anmals__leon{
+    z-index: -1;
+    top: -30px;
+    left: 260px;
+}
+.anmals__llama{
+    left: 335px;
+    top: -325px;
+    rotate: z 90deg;
+    z-index: -1;
+}
+.anmals__mono{
+    left: -35px;
+    z-index: -1;
+    rotate: z -90deg;
+    bottom: 40px;
+}
+.anmals__oso{
+    left: 335px;
+    z-index: -1;
+    rotate: z 90deg;
+    bottom: 40px;
+}

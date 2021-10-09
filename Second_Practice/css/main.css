@@ -363,7 +363,7 @@ main{
 }
 .mn-img{
     width: 100%;
-    min-width: 320;
+    min-width: 320px;
     height: 50vh;
     background-image: url('../assets/images/bitcoinbaby.jpg');
     background-position: center;
@@ -549,4 +549,16 @@ footer .ft-left{
 .ft-left a{
     text-decoration: none;
     color: var(--just_White);
+}
+@media screen and (min-width: 700px) {
+    .mn-sect-tbl{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .carts-plns--slider{
+        justify-content: center;
+        overflow-x:  hidden;
+    }
 }
